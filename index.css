@@ -1,0 +1,485 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: black;
+}
+.start{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.start .logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.start .link ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-size: small;
+    gap: 30px;
+}
+.start .link ul .media i{
+    padding-left: 10px;
+    color: whitesmoke;
+}
+.start .link ul .media i:hover{
+    padding-left: 10px;
+    color: orangered;
+}
+.start .link ul li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+header section{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/hero-bg.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+header section .head{
+    text-align: center;
+}
+header section .head p{
+    color: lightgray;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+header section .head h2{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 30px;
+}
+header section .head-btn{
+    margin-top: 30px;
+}
+header section .head-btn input[type=button]{
+    background-color: transparent;
+    color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+}
+header section .head-btn input[type=button]:hover{
+    background-color: transparent;
+    color: orangered;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: 1px solid orangered;
+    transition: 0.5s;
+    }
+/* work */
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 80px;
+    background-color: black;
+    padding-bottom: 50px;
+}
+.work .new h1{
+    padding-bottom: 20px;
+}
+.work .new h4{
+    padding-bottom: 20px;
+}
+.work .new p{
+    padding-bottom: 30px;
+    color: lightslategray;
+}
+.work .new a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: lightslategray;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+.work .hour {
+    padding-left: 100px;
+    border-left: 2px solid grey; 
+}
+.work .hour h1{
+    padding-bottom: 20px;
+}
+.work .hour p{
+    padding-bottom: 20px;
+}
+.work .hour h4{
+    padding-bottom: 20px;
+    color: lightslategray;
+}
+/* hello */
+.hello{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: rgba(235, 235, 235, 0.638);
+}
+.hello .hello-text{
+        padding-top: 100px;
+}
+.hello .hello-text h2{
+    margin-bottom: 20px;
+}
+.hello .hello-text p{
+    margin-bottom: 20px;
+}
+.hello .hello-pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.hello .hello-pics div{
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.hello .hello-pics div img{
+    width: 200px;
+}
+.hello .hello-pics div h2{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hello .hello-pics div p{
+    background-color: white;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hello .hello-pics div i{
+    background-color: white;
+    color: grey;
+}
+.hello .hello-pics div i:hover{
+    background-color: white;
+    color: grey;
+    font-size: 20px;
+    color: skyblue;
+    cursor: pointer;
+}
+/* classes */
+.class{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(235, 235, 235, 0.512);
+}
+.class p{
+    color: grey;
+    margin-bottom: 10px;
+}
+.class h2{
+    margin-bottom: 30px;
+}
+.class .class-pics div {
+    text-align: left;
+    background-color: white;
+}
+.class .class-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.class .class-pics img{
+    width: 300px;
+    height: 200px;
+}
+.class .class-pics h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.class .class-pics div p{
+    margin-top: 20px;
+    margin-top: 10px;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.class .class-pics span{
+    color: black;
+}
+.class .class-pics div a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: lighter;
+    border-radius: 50%;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 150px;
+}
+
+/* timetable */
+.time{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+.time p{
+    padding-bottom: 10px;
+    color: grey;
+}
+.time h2{
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+.time .timetable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time .timetable table{
+    color: whitesmoke;
+    border: 1px solid black;
+}
+.time .timetable table thead th{
+    background-color: orangered;
+    padding: 10px;
+}
+/* .time .timetable table tr{
+    
+} */
+.time .timetable table tbody tr td{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.time .timetable table tbody .orange{
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+}
+.time .timetable table tbody tr td h6{
+    color: grey;
+    padding-top: 5px;
+}
+
+/* map */
+.last{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+.last .last-text form{
+    text-align: center;
+    width: 500px;
+    margin-top: 40px;
+}
+.last .last-text form .name{
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.last .last-text form .email{
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.last .last-text form textarea{
+    width: 100%;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.last .last-text form .btn{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+/*  */
+.last .map h5{
+    margin-top: 40px;
+    color: gray;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.last .map i{
+    color: red;
+}
+.last .map iframe{
+    margin-top: 70px;
+    height: 300px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-top: 1px solid gray;
+}
+footer div p{
+    color: gray;
+}
+footer div p i{
+    color: orangered;
+}
+footer .footer-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Screen Media */
+@media (max-width: 768px) {
+    
+    .start {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .start .link ul {
+        flex-direction: column; 
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+
+    header section {
+        height: auto; 
+        padding-bottom: 60px;
+    }
+    header section .head p {
+        padding-top: 80px; 
+    }
+
+    .work {
+        flex-direction: column; 
+        text-align: center;
+        padding-top: 50px;
+    }
+    .work .new a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .work .hour {
+        padding-left: 0;
+        border-left: none;
+        border-top: 2px solid grey;
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+    .hello {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .hello .hello-pics {
+        flex-direction: column; 
+        margin-top: 50px;
+    }
+
+    .class .class-pics {
+        flex-direction: column; 
+    }
+    .class .class-pics div {
+        width: 90%; 
+        margin: 0 auto;
+        text-align: center;
+    }
+    .class .class-pics img {
+        width: 100%; 
+        height: auto;
+    }
+    .class .class-pics div a {
+        margin-left: 0; 
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .time .timetable {
+        width: 95%;
+        margin: 0 auto;
+        overflow-x: auto; 
+    }
+
+    .last {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .last .last-text form {
+        width: 100%; 
+        margin-top: 0;
+    }
+    .last .last-text form .name,
+    .last .last-text form .email {
+        width: 100%; 
+    }
+    .last .last-text form .btn {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .last .map {
+        width: 100%;
+        text-align: center;
+    }
+    .last .map iframe {
+        width: 100%; 
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    footer .footer-p {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
